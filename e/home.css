@@ -1,0 +1,255 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 100;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #777;
+}
+
+p {
+    font-size: 1em;
+    color: rgb(6, 5, 71);
+}
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 50px;
+    background-color: #777;
+    background-image: url(../imagens/pattern2.jpeg);
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    float: left;
+    background-image: url(../imagens/icon11.png);
+    border-style: solid;
+    border-color: black;
+    font-size: 0;
+}
+
+.cabecalho form {
+    width: 50%;
+    float: right;
+}
+
+.cabecalho input[type="text"] {
+    width: 90%;
+    float: left;
+    padding: 10px 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.cabecalho button {
+    width: 10%;
+    float: right;
+    padding: 10px 10px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    background-color: rgb(8, 136, 199);
+    color: rgb(248, 243, 252);
+}
+
+.menu {
+    width: 100%;
+    float: right;
+    background-color: rgb(8, 136, 199);
+    padding: 18px 8%;
+    border-style: solid;
+    border-color: rgb(14, 174, 140);
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: white;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: rgb(14, 174, 140);
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-twitter {
+    color: white
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-facebook:hover {
+    color: rgb(14, 174, 140);
+}
+
+.fa-linkedin:hover {
+    color: rgb(14, 174, 140);
+}
+
+.fa-instagram:hover {
+    color: rgb(14, 174, 140);
+}
+
+.fa-twitter:hover {
+    color: rgb(14, 174, 140);
+}
+
+.fa-youtube:hover {
+    color: rgb(14, 174, 140);
+}
+
+.fa-twitch:hover {
+    color: rgb(14, 174, 140);
+}
+
+.social-icons {
+    float: right;
+}
+
+.social-icons a {
+    color: #777;
+    float: left;
+    margin-left: 10px;
+}
+
+.principal {
+    width: 100%;
+    float: center;
+    padding: 0 20px 0 20px;
+}
+
+.sobre {
+    width: 100%;
+    float: center;
+    padding: 0 20px 0 20px;
+}
+
+.sobre h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sobre img {
+    width: 100%;
+    float: center;
+    border-radius: 6px;
+    margin: 0 15px 15px 0;
+    height: auto;
+}
+
+.sobre p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.sobre iframe {
+    width: 100%;
+    float: center;
+    border-radius: 6px;
+    margin: 0 15px 15px 0;
+    height: 300px;
+}
+
+.missao {
+    width: 50%;
+    float: left;
+    padding: 0 20px 0 20px;
+    text-align: justify;
+}
+
+.missao h2 {
+    font-weight: bold;
+}
+
+.visao h2 {
+    font-weight: bold;
+}
+
+.visao {
+    width: 50%;
+    float: left;
+    padding: 0 20px 0 20px;
+    text-align: justify;
+}
+
+.newsletter {
+    width: 100%;
+    float: left;
+    background-color: rgb(22, 21, 21);
+    padding: 20px 8%;
+}
+
+.newsletter h2 {
+    font-size: 1.7em;
+    color: #fff;
+    text-align: center;
+}
+
+.newsletter ul {
+    text-align: center;
+    color: #fff;
+}
+
+.fa-phone-volume {
+    padding: 10px;
+}
+
+.fa-mail-bulk {
+    padding: 10px;
+}
+
+.fa-mobile-alt {
+    padding: 10px;
+}
+
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: rgb(8, 136, 199);
+    padding: 25px 8%;
+    border-style: solid;
+    border-color: rgb(14, 174, 140);
+}
+
+.rodape p {
+    color: #fff;
+    text-align: center;
+}

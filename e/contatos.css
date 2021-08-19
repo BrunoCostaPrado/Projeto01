@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+    font-family: 'play', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 100;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: rgb(255, 254, 254);
+}
+
+p {
+    font-size: 1em;
+    color: rgb(5, 5, 5);
+}
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 75px;
+    background-color: rgb(4, 4, 44);
+}
+
+.logo a {
+    color: aliceblue;
+}
+
+.cabecalho form {
+    width: 50%;
+    float: right;
+}
+
+.cabecalho input[type="text"] {
+    width: 90%;
+    float: left;
+    padding: 5px 2.5px;
+    border-radius: 10px 0 0 10px;
+}
+
+.menu {
+    width: 100%;
+    float: right;
+    background-color: rgb(253, 253, 253);
+    padding: 5PX 8%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: #413e3e;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    color: rgb(32, 33, 116);
+    font-size: 1.1em;
+}
+
+.fa-facebook:hover {
+    color: #0858f8;
+}
+
+.fa-linkedin:hover {
+    color: #123ec4;
+}
+
+.fa-instagram:hover {
+    color: rgb(207, 31, 199);
+}
+
+.fa-twitter:hover {
+    color: rgb(2, 131, 252);
+}
+
+.fa-youtube:hover {
+    color: rgb(247, 1, 1);
+}
+
+.fa-twitch:hover {
+    color: rgb(112, 4, 145);
+}
+
+.social-icons {
+    float: right;
+}
+
+.social-icons a {
+    color: #777;
+    float: left;
+    margin-left: 10px;
+}
